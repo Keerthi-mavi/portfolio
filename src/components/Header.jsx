@@ -19,6 +19,9 @@ const Header = () => {
             return !prevState;
         });
     }
+    const closeMenuHandle = () => {
+        setOpenHeader(false);
+    }
     window.addEventListener('scroll', scrollHandler);
 
     const menuClass = openHeader ? `h-screen fixed left-0 top-0 max-w-[400px] w-full bg-gray-900 text-white p-2 flex-col text-center` : `ml-10 hidden items-baseline space-x-4 md:flex`;
@@ -30,7 +33,7 @@ const Header = () => {
                     <h1 className={`text-4xl ${!scrollHeader && 'text-[#111827]'}`}>Portfolio</h1>
 
                     <div >
-                        <Menu menuclass={menuClass} openHeader={openHeader} openMenuHandle={openMenuHandle}/>
+                        <Menu menuclass={menuClass} openHeader={openHeader} openMenuHandle={openMenuHandle} closeMenuHandle={closeMenuHandle}/>
                     </div>
 
                     <div className='block md:hidden'>
