@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #edf9fe;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.vl {
+    border-left: 3px solid #111827;
+    height: 50px;
+    position: absolute;
+    left: 5.2%;
+    margin-top: 1rem;
+}
