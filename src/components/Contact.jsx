@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <section id="experience" class="py-20 lg:px-32 px-6">
+        <section id="contact" class="py-20 lg:px-32 px-6">
             <h1 className='text-2xl font-semibold'>Contact</h1>
 
             <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-8">

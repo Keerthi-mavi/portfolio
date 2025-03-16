@@ -9,27 +9,27 @@ const Menu = ({menuclass, openHeader, openMenuHandle}) => {
                 {openHeader && <button className='text-white p-3 flex ml-80 top-5 hover:bg-slate-300 rounded-md' onClick={openMenuHandle}><IoCloseSharp /></button>}
 
                 <li className='hover:bg-[#98acd5] p-3 rounded-md '>
-                    <a href="#about" >
+                    <a href="#about"  onClick={openMenuHandle}>
                         About
                     </a>
                 </li>
                 <li className='hover:bg-[#98acd5] p-3 rounded-md'>
-                    <a href="#skills" >
+                    <a href="#skills" onClick={openMenuHandle}>
                         Skills
                     </a>
                 </li>
                 <li className='hover:bg-[#98acd5] p-3 rounded-md'>
-                    <a href="#experience">
+                    <a href="#experience" onClick={openMenuHandle}>
                         Experience
                     </a>
                 </li>
                 <li className='hover:bg-[#98acd5] p-3 rounded-md'>
-                    <a href="#certificates">
+                    <a href="#certificates" onClick={openMenuHandle}>
                         Certificates
                     </a>
                 </li>
                 <li className='hover:bg-[#98acd5] p-3 rounded-md'>
-                    <a href="#contact">
+                    <a href="#contact" onClick={openMenuHandle}>
                         Contact
                     </a>
                 </li>
