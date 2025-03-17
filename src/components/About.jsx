@@ -18,7 +18,7 @@ const About = () => {
                         <p class="text-lg mb-6 ">
                             Interested in exploring new technologies, integrating and playing around with open source softwares.
                         </p>
-                        <a class="bg-[#001c5579]  px-6 py-3 rounded-full font-semibold hover:bg-[#001c554d] transition-colors duration-300 mt-7" download="" href="/resume.pdf">Download Resume</a>
+                        <a class="bg-[#001c5579]  px-6 py-3 rounded-full font-semibold hover:bg-[#001c554d] transition-colors duration-300 mt-7" download="Mavillapally Keerthi resume" href="/MavillapallyKeerthi_resume.pdf" target='_blank'>Download Resume</a>
                     </div>
                 </div>
             </div>
